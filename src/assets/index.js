@@ -23,14 +23,14 @@ import threejs from "./tech/c1.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/utehy.png";
+import utehy from "./company/utehy.png";
 import tesla from "./company/tesla.png";
 
 import profile from "./nguyenduyhai_profile.png";
 import jobit from "./Weather_app.png";
 import Ecommerce_admin from "./ban_hang.png";
 import ecommerce from "./ecommerce.png";
-import carrent from "./carrent.png";
+import carhub from "./CarHub.png";
 
 
 export {
@@ -57,9 +57,9 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
+  utehy,
   tesla,
-  carrent,
+  carhub,
   jobit,
   Ecommerce_admin,
   ecommerce,

@@ -16,10 +16,10 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  utehy,
   tesla,
   shopify,
-  carrent,
+  carhub,
   jobit,
   Ecommerce_admin,
   ecommerce,
@@ -118,23 +118,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Education & Certifications",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title_companny
+    : "Education & Certifications",
+    company_name: "utehy",
+    icon: utehy,
     iconBg: "#383E56",
     date: "August 2019 - July 2023",
     points: [
       "Hung Yen University of Technology and Education.",
-      "Information Technology Engineer", "Major in Computer Science", "Cumulative GPA: 2.77/4.0",
+      "Information Technology Engineer", "Major in Computer Science",
       "I am a recent graduate with a strong foundation in various programming languages and web development technologies such as HTML, CSS, JavaScript, Python and framework like React.",
     ],
   },
   {
     title: "Web Developer Intern",
+    title_companny: "Nhat Minh Telecommunications Electric Production Business Company Limited",
     company_name: "Nhat Minh Telecommunications Electric Production Business Company Limited",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "August 2021 - October 2021",
+    date: "August 2022 - November 2022",
     points: [
       "Building User Interfaces (UI/UX): I have been tasked with developing the user interfaces of websites or applications. Using HTML, CSS, and JavaScript to create appealing and user-friendly interfaces.",
       "Server-side Functionality Development: I have been involved in developing server-side processing logic of applications, including writing programming code in languages like Node.js, Python.",
@@ -143,7 +145,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title_companny: "Web Developer",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
@@ -156,7 +158,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title_companny: "Full stack Developer",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
@@ -204,15 +206,15 @@ const projects = [
       "This personal portfolio website about me and how you get in touch with me. This project combines ThreeJS, React Three Fiber, TailwindCSS and Framer Motion.",
     tags: [
       {
-        name: "threeJS",
+        name: "ThreeJS",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindCSS ",
+        name: "TailwindCSS ",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -225,15 +227,15 @@ const projects = [
       "This site is for users to buy clothes. This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -246,15 +248,15 @@ const projects = [
       "This site is for admin to monitor and install user site.. This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
@@ -262,24 +264,24 @@ const projects = [
     source_code_link: "https://github.com/HaiNguyenDuy123/E-commerce_admin.git",
   },
   {
-    name: "Car_Rent",
+    name: "Car_Hub",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "html",
-        color: "blue-text-gradient",
+        name: "React",
+        color: "blue-text-gradient ",
       },
       {
-        name: "css",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: carhub,
     source_code_link: "https://github.com/HaiNguyenDuy123/Car_Rent.git",
   },
   {
@@ -288,21 +290,22 @@ const projects = [
       "This project utilizes HTML, CSS, and JavaScript to create a weather forecasting website. I fetch current weather data from the Fess API and display weather.",
     tags: [
       {
-        name: "html",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/HaiNguyenDuy123/Weather_app/tree/main",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -25,10 +25,19 @@ const ExperienceCard = ({ experience}) => (
   >
     <div>
       <h3 className="text-while text-[-24px] font-bold">
+        {experience.title_companny}
+      </h3>
+      <p className="text-secondary text-[16px] font-semibold " style={{ margin: 0 }} >{experience.companny_name}</p>
+    </div>
+
+    <div>
+      <h3 className="text-while text-[-24px]">
         {experience.title}
       </h3>
       <p className="text-secondary text-[16px] font-semibold " style={{ margin: 0 }} >{experience.companny_name}</p>
     </div>
+
+
 
     <ul className="mt-5 list-disc ml-5 space-y-2" >
       {experience.points.map((point, index) => (
