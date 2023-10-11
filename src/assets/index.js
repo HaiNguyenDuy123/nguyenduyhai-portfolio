@@ -21,7 +21,7 @@ import git from "./tech/git.png";
 import docker from "./tech/docker.png";
 
 import utehy from "./company/utehy.png";
-import comit from "./company/comit.png";
+import comit from "./company/commit.png";
 
 import profile from "./nguyenduyhai_profile.png";
 import weather_app from "./Weather_app.png";
