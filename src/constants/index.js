@@ -1,30 +1,33 @@
 import {
+  //about
   mobile,
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
+  //tech
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
   docker,
-  meta,
+  git,
+  html,
+  java,
+  javascript,
+  mongodb,
+  nodejs,
+  python,
+  reactjs,
+  sql,
+  spring,
+  //company
   utehy,
-  tesla,
-  shopify,
+  comit,
+  //work
   carhub,
-  jobit,
+  weather_app,
   Ecommerce_admin,
   ecommerce,
-  threejs,
   profile,
+  review_backend,
+  review_frontend
 } from "../assets";
 
 export const navLinks = [
@@ -33,8 +36,16 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "project",
+    title: "Project",
+  },
+  {
+    id: "feedbacks",
+    title: "Feedback",
   },
   {
     id: "contact",
@@ -48,7 +59,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -56,7 +67,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Python Developer",
+    title: "Java Developer",
     icon: creator,
   },
 ];
@@ -75,40 +86,36 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Spring",
+    icon: spring,
+  }, 
+  {
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -132,11 +139,11 @@ const experiences = [
   },
   {
     title: "Web Developer Intern",
-    title_companny: "Nhat Minh Telecommunications Electric Production Business Company Limited",
-    company_name: "Nhat Minh Telecommunications Electric Production Business Company Limited",
-    icon: tesla,
+    title_companny: "COMIT Telecommunication Services Joint Stock Company",
+    company_name: "COMIT Telecommunication Services Joint Stock Company",
+    icon: comit,
     iconBg: "#E6DEDD",
-    date: "August 2022 - November 2022",
+    date: "July 2022 - September 2022",
     points: [
       "Building User Interfaces (UI/UX): I have been tasked with developing the user interfaces of websites or applications. Using HTML, CSS, and JavaScript to create appealing and user-friendly interfaces.",
       "Server-side Functionality Development: I have been involved in developing server-side processing logic of applications, including writing programming code in languages like Node.js, Python.",
@@ -145,29 +152,18 @@ const experiences = [
     ],
   },
   {
-    title_companny: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Backend Developer Fresher",
+    title_companny: "COMIT Telecommunication Services Joint Stock Company",
+    company_name: "COMIT Telecommunication Services Joint Stock Company",
+    icon: comit,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title_companny: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and implemented efficient database management systems, resulting in a 30% decrease in response time for data retrieval and storage.",
+      "Integrated third-party APIs into web platforms, resulting in a 10% increase in user engagement. Collaborated with front-end developers and other team members to design code that was more cohesive and functional, resulting in a 20% reduction in bugs.",
+      "Conducted rigorous testing and debugging of backend systems to ensure high-quality, bug-free software delivery, reducing post-release issues by 40%.",
+      "Managed SQL queries and data transport, resulting in a 10% increase in data processing speed.",
+      "Developed server-side logic in Java and JavaScript for web applications, mobile applications, and data science projects.",
     ],
   },
 ];
@@ -183,23 +179,95 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Hai does.",
-    name: "Chris Brown",
+      "Tôi chưa bao giờ gặp một nhà phát triển web thực sự quan tâm đến thành công của khách hàng như Hải.",
+    name: "Phan Thanh Đức",
     designation: "COO",
     company: "DEF Corp",
     image: "https://static.vecteezy.com/system/resources/previews/002/002/403/original/man-with-beard-avatar-character-isolated-icon-free-vector.jpg",
   },
   {
     testimonial:
-      "After Hai optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "私たちの製品と同じくらい美しいウェブサイトを作るのは不可能だと思っていましたが、Hai は私が間違っていることを証明してくれました。",
+    name: "パンタンゲン",
     designation: "CTO",
     company: "456 Enterprises",
+    image: "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+  },
+  {
+    testimonial:
+      "Hai가 웹사이트를 최적화한 후 트래픽이 50% 증가했습니다. 우리는 그들에게 아무리 감사해도 부족하지 않습니다!",
+    name: "판탄득",
+    designation: "CTO",
+    company: "352 Enterprises",
     image: "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
   },
 ];
 
 const projects = [
+    {
+    name: "Content-Calendar",
+    description:
+      "This project utilizes Spring Boot, including Spring Core, Spring MVC, and JDBC/Spring Data, to create the content calendar.",
+    tags: [
+      {
+        name: "Spring Core",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring MVC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JDBC/Spring Data",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: review_backend,
+    source_code_link: "https://github.com/HaiNguyenDuy123/content-calendar",
+  },
+  {
+    name: "Review_Movie_Backend",
+    description:
+      "Create and develop a movie review application that features separation of concerns between client code and server code.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: review_backend,
+    source_code_link: "https://github.com/HaiNguyenDuy123/Movie_Review_Backend",
+  },
+  {
+    name: "Review_Movie_Frontend",
+    description:
+      "Create and develop a movie review application that features separation of concerns between client code and server code.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "pink-text-gradient",
+      },
+    ],
+    
+    image:review_frontend,
+    source_code_link: "https://github.com/HaiNguyenDuy123/Review_movie-FrontEnd",
+  },
   {
     name: "Portfolio",
     description:
@@ -302,7 +370,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: weather_app,
     source_code_link: "https://github.com/HaiNguyenDuy123/Weather_app/tree/main",
   },
   

@@ -7,30 +7,29 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/java.png";
-import figma from "./tech/c++.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
+import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/c.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/python.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/c1.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import spring from "./tech/spring.png";
+import sql from "./tech/sql.png";
+import mongodb from "./tech/mongodb.png"
+import git from "./tech/git.png";
+import docker from "./tech/docker.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import utehy from "./company/utehy.png";
-import tesla from "./company/tesla.png";
+import comit from "./company/comit.png";
 
 import profile from "./nguyenduyhai_profile.png";
-import jobit from "./Weather_app.png";
-import Ecommerce_admin from "./ban_hang.png";
-import ecommerce from "./ecommerce.png";
+import weather_app from "./Weather_app.png";
+import Ecommerce_admin from "./e-commerce-admin.jpeg";
+import ecommerce from "./e-commerce_store.jpeg";
 import carhub from "./CarHub.png";
+import review_backend from "./review_backend.png";
+import review_frontend from "./review_movie.png";
 
 
 export {
@@ -42,26 +41,29 @@ export {
   github,
   menu,
   close,
+
   css,
   docker,
-  figma,
   git,
   html,
+  java,
   javascript,
   mongodb,
   nodejs,
+  python,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
+  sql,
+  spring,
+
+
   utehy,
-  tesla,
+  comit,
+  
   carhub,
-  jobit,
+  weather_app,
   Ecommerce_admin,
   ecommerce,
   profile,
+  review_backend,
+  review_frontend
 };
