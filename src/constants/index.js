@@ -157,7 +157,7 @@ const experiences = [
     company_name: "COMIT Telecommunication Services Joint Stock Company",
     icon: comit,
     iconBg: "#383E56",
-    date: "October 2022 - May 2023",
+    date: "October 2022 - January 2023",
     points: [
       "Developed and implemented efficient database management systems, resulting in a 30% decrease in response time for data retrieval and storage.",
       "Integrated third-party APIs into web platforms, resulting in a 10% increase in user engagement. Collaborated with front-end developers and other team members to design code that was more cohesive and functional, resulting in a 20% reduction in bugs.",
