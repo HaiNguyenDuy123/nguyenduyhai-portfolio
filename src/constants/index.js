@@ -19,7 +19,8 @@ import {
   spring,
   //company
   utehy,
-  comit,
+  telio,
+  nhatminh,
   //work
   carhub,
   weather_app,
@@ -27,7 +28,9 @@ import {
   ecommerce,
   profile,
   review_backend,
-  review_frontend
+  review_frontend,
+  login,
+  todo,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +58,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Java Developer",
     icon: web,
   },
   {
@@ -67,7 +70,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Java Developer",
+    title: "IT HelpDesk",
     icon: creator,
   },
 ];
@@ -104,7 +107,7 @@ const technologies = [
   {
     name: "Spring",
     icon: spring,
-  }, 
+  },
   {
     name: "SQL",
     icon: sql,
@@ -125,39 +128,40 @@ const technologies = [
 
 const experiences = [
   {
-    title_companny
-    : "Education & Certifications",
+    title_companny: "Education & Certifications",
     company_name: "utehy",
     icon: utehy,
     iconBg: "#383E56",
     date: "August 2019 - July 2023",
     points: [
       "Hung Yen University of Technology and Education.",
-      "Information Technology Engineer", "Major in Computer Science",
+      "Information Technology Engineer",
+      "Major in Computer Science",
       "I am a recent graduate with a strong foundation in various programming languages and web development technologies such as HTML, CSS, JavaScript, Python and framework like React.",
     ],
   },
   {
-    title: "Web Developer Intern",
-    title_companny: "COMIT Telecommunication Services Joint Stock Company",
-    company_name: "COMIT Telecommunication Services Joint Stock Company",
-    icon: comit,
+    title: "FrontEnd Internship",
+    title_companny:
+      "Nhat Minh Telecommunications Production and Trading Limited Liability Company",
+    company_name:
+      "Nhat Minh Telecommunications Production and Trading Limited Liability Company",
+    icon: nhatminh,
     iconBg: "#E6DEDD",
-    date: "July 2022 - September 2022",
+    date: "March 2023 - May 2023",
     points: [
-      "Building User Interfaces (UI/UX): I have been tasked with developing the user interfaces of websites or applications. Using HTML, CSS, and JavaScript to create appealing and user-friendly interfaces.",
-      "Server-side Functionality Development: I have been involved in developing server-side processing logic of applications, including writing programming code in languages like Node.js, Python.",
-      "Database Integration: I have learned how to interact with databases by executing queries, updates, and data storage.",
-      "Learning and Researching New Technologies: I have had the opportunity to learn and research the latest technologies and frameworks in the field of web development.",
+      "Developed and implemented efficient database management systems, resulting in a 30% decrease inresponse time for data retrieval and storage.",
+      "I provided support to customers by answering questions and handling complaints. I resolved over 50 customer inquiries in my first month, with a satisfaction rate of 90%",
+     
     ],
   },
   {
-    title: "Backend Developer Fresher",
-    title_companny: "COMIT Telecommunication Services Joint Stock Company",
-    company_name: "COMIT Telecommunication Services Joint Stock Company",
-    icon: comit,
+    title: "BackEnd Internship",
+    title_companny: "TELIO VIETNAM COMPANY LIMITED",
+    company_name: "TELIO VIETNAM COMPANY LIMITED",
+    icon: telio,
     iconBg: "#383E56",
-    date: "October 2022 - January 2023",
+    date: "September 2023 - December 2023",
     points: [
       "Developed and implemented efficient database management systems, resulting in a 30% decrease in response time for data retrieval and storage.",
       "Integrated third-party APIs into web platforms, resulting in a 10% increase in user engagement. Collaborated with front-end developers and other team members to design code that was more cohesive and functional, resulting in a 20% reduction in bugs.",
@@ -175,15 +179,8 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHXQVx4YoM0udnjuHwFR0QJ7GnSOu6c6-tW7VQ2G0Aog&s",
-  },
-  {
-    testimonial:
-      "Tôi chưa bao giờ gặp một nhà phát triển web thực sự quan tâm đến thành công của khách hàng như Hải.",
-    name: "Phan Thanh Đức",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://static.vecteezy.com/system/resources/previews/002/002/403/original/man-with-beard-avatar-character-isolated-icon-free-vector.jpg",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHXQVx4YoM0udnjuHwFR0QJ7GnSOu6c6-tW7VQ2G0Aog&s",
   },
   {
     testimonial:
@@ -191,7 +188,8 @@ const testimonials = [
     name: "パンタンゲン",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+    image:
+      "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
   },
   {
     testimonial:
@@ -199,31 +197,53 @@ const testimonials = [
     name: "판탄득",
     designation: "CTO",
     company: "352 Enterprises",
-    image: "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/002/002/403/original/man-with-beard-avatar-character-isolated-icon-free-vector.jpg",
   },
 ];
 
 const projects = [
-    {
-    name: "Content-Calendar",
+  {
+    name: "Login_Register",
     description:
-      "This project utilizes Spring Boot, including Spring Core, Spring MVC, and JDBC/Spring Data, to create the content calendar.",
+      "This project utilizes Spring Boot, including HTML, CSS, MySQL, Spring Security, Spring MVC, and JDBC/Spring Data, to create the Login_Register.",
     tags: [
       {
-        name: "Spring Core",
+        name: "Spring",
         color: "blue-text-gradient",
       },
       {
-        name: "Spring MVC",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "JDBC/Spring Data",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: review_backend,
-    source_code_link: "https://github.com/HaiNguyenDuy123/content-calendar",
+    image: login,
+    source_code_link: "https://github.com/HaiNguyenDuy123/Login_Register",
+  },
+  {
+    name: "Todo_App",
+    description:
+      "This project uses Spring Boot, MySQL, JPA Data, JSP technologies to create a Todo_App website including creating, adding, deleting, and editing.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JSP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/HaiNguyenDuy123/todo_App ",
   },
   {
     name: "Review_Movie_Backend",
@@ -264,9 +284,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    
-    image:review_frontend,
-    source_code_link: "https://github.com/HaiNguyenDuy123/Review_movie-FrontEnd",
+
+    image: review_frontend,
+    source_code_link:
+      "https://github.com/HaiNguyenDuy123/Review_movie-FrontEnd",
   },
   {
     name: "Portfolio",
@@ -287,7 +308,8 @@ const projects = [
       },
     ],
     image: profile,
-    source_code_link: "https://github.com/HaiNguyenDuy123/nguyenduyhai-portfolio/tree/main",
+    source_code_link:
+      "https://github.com/HaiNguyenDuy123/nguyenduyhai-portfolio/tree/main",
   },
   {
     name: "E-commerce",
@@ -371,9 +393,9 @@ const projects = [
       },
     ],
     image: weather_app,
-    source_code_link: "https://github.com/HaiNguyenDuy123/Weather_app/tree/main",
+    source_code_link:
+      "https://github.com/HaiNguyenDuy123/Weather_app/tree/main",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

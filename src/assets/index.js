@@ -21,7 +21,8 @@ import git from "./tech/git.png";
 import docker from "./tech/docker.png";
 
 import utehy from "./company/utehy.png";
-import comit from "./company/commit.png";
+import telio from "./company/telio.jpg";
+import nhatminh from "./company/nhatminh.png";
 
 import profile from "./nguyenduyhai_profile.png";
 import weather_app from "./Weather_app.png";
@@ -30,6 +31,8 @@ import ecommerce from "./e-commerce_store.jpeg";
 import carhub from "./CarHub.png";
 import review_backend from "./review_backend.png";
 import review_frontend from "./review_movie.png";
+import login from "./login_registration.png";
+import todo from "./todo.png";
 
 
 export {
@@ -57,7 +60,8 @@ export {
 
 
   utehy,
-  comit,
+  telio,
+  nhatminh,
   
   carhub,
   weather_app,
@@ -65,5 +69,7 @@ export {
   ecommerce,
   profile,
   review_backend,
-  review_frontend
+  review_frontend,
+  login,
+  todo,
 };
