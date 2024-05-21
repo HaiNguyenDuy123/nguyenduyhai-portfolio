@@ -22,7 +22,7 @@ import docker from "./tech/docker.png";
 
 import utehy from "./company/utehy.png";
 import telio from "./company/telio.jpg";
-import nhatminh from "./company/nhatminh.png";
+import jits from "./company/jits.jpg";
 
 import profile from "./nguyenduyhai_profile.png";
 import weather_app from "./Weather_app.png";
@@ -61,7 +61,7 @@ export {
 
   utehy,
   telio,
-  nhatminh,
+  jits,
   
   carhub,
   weather_app,

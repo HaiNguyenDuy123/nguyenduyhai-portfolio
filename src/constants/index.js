@@ -20,7 +20,7 @@ import {
   //company
   utehy,
   telio,
-  nhatminh,
+  jits,
   //work
   carhub,
   weather_app,
@@ -143,16 +143,16 @@ const experiences = [
   {
     title: "FrontEnd Internship",
     title_companny:
-      "Nhat Minh Telecommunications Production and Trading Limited Liability Company",
+      "JITS INNOVATION LABS LIMITED",
     company_name:
-      "Nhat Minh Telecommunications Production and Trading Limited Liability Company",
-    icon: nhatminh,
+      "JITS INNOVATION LABS LIMITED",
+    icon: jits,
     iconBg: "#E6DEDD",
     date: "March 2023 - May 2023",
     points: [
-      "Developed and implemented efficient database management systems, resulting in a 30% decrease inresponse time for data retrieval and storage.",
-      "I provided support to customers by answering questions and handling complaints. I resolved over 50 customer inquiries in my first month, with a satisfaction rate of 90%",
-     
+      "API Integration: I developed skills in integrating frontend applications with backend services through RESTful API.",
+      "HTML, CSS, and JavaScript Proficiency: I honed my skills in core web technologies—HTML, CSS, and JavaScript. This included creating responsive and accessible web pages, utilizing CSS preprocessors like SASS, and writing clean, modular JavaScript code.",
+      "Version Control with Git: I became proficient in using Git for version control, including branching, merging, and managing pull requests.",
     ],
   },
   {
@@ -163,11 +163,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2023 - December 2023",
     points: [
-      "Developed and implemented efficient database management systems, resulting in a 30% decrease in response time for data retrieval and storage.",
-      "Integrated third-party APIs into web platforms, resulting in a 10% increase in user engagement. Collaborated with front-end developers and other team members to design code that was more cohesive and functional, resulting in a 20% reduction in bugs.",
-      "Conducted rigorous testing and debugging of backend systems to ensure high-quality, bug-free software delivery, reducing post-release issues by 40%.",
-      "Managed SQL queries and data transport, resulting in a 10% increase in data processing speed.",
-      "Developed server-side logic in Java and JavaScript for web applications, mobile applications, and data science projects.",
+      "RESTful API Development: I developed and maintained RESTful APIs, learning how to design endpoints, handle HTTP requests and responses, and ensure secure and efficient data transfer between the client and server.",
+      "Understanding of Backend Frameworks and Languages: During my internship, I gained hands-on experience with various backend frameworks and programming languages such as Node.js and Java (Spring).",
+      "Database Management: I learned how to design, implement, and manage databases using SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases.",
     ],
   },
 ];
