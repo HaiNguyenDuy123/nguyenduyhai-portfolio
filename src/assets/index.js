@@ -21,7 +21,7 @@ import git from "./tech/git.png";
 import docker from "./tech/docker.png";
 
 import utehy from "./company/utehy.png";
-import telio from "./company/telio.jpg";
+import gtc from "./company/gtc.png";
 import jits from "./company/jits.jpg";
 
 import profile from "./nguyenduyhai_profile.png";
@@ -60,7 +60,7 @@ export {
 
 
   utehy,
-  telio,
+  gtc,
   jits,
   
   carhub,

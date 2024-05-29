@@ -19,7 +19,7 @@ import {
   spring,
   //company
   utehy,
-  telio,
+  gtc,
   jits,
   //work
   carhub,
@@ -62,16 +62,16 @@ const services = [
     icon: web,
   },
   {
+    title: ". NET Developer",
+    icon: creator,
+  },
+  {
     title: "Frontend Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "IT HelpDesk",
-    icon: creator,
   },
 ];
 
@@ -157,9 +157,9 @@ const experiences = [
   },
   {
     title: "BackEnd Internship",
-    title_companny: "TELIO VIETNAM COMPANY LIMITED",
-    company_name: "TELIO VIETNAM COMPANY LIMITED",
-    icon: telio,
+    title_companny: "GLOBAL TECHNOLOGY JSC",
+    company_name: "GLOBAL TECHNOLOGY JSC",
+    icon: gtc,
     iconBg: "#383E56",
     date: "September 2023 - December 2023",
     points: [
@@ -201,6 +201,69 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Product Catalog (CRUD)",
+    description:
+      "Designed and implemented a CRUD application to manage product details, providing interfaces for adding, viewing, updating, and deleting products.",
+    tags: [
+      {
+        name: "ASP.NET",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MS SQL server",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CRUD,
+    source_code_link: "https://github.com/HaiNguyenDuy123/CRUD_Asp.Net",
+  },
+  {
+    name: "Login and User Registration",
+    description:
+      "Created the User Login and Registration project using ASP.NET Core MVC, C#, .NET 8, HTML, CSS and MS SQL server.",
+    tags: [
+      {
+        name: "ASP.NET",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "green-text-gradient",
+      },
+      {
+        name: ".NET 8",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Login_and_User_Registration,
+    source_code_link: "https://github.com/HaiNguyenDuy123/login_Asp.Net",
+  },
+  {
+    name: "Employee_Management_System",
+    description:
+      "Develop a comprehensive Employee Management System to streamline employee data management including registration login, profile management, adding employee information.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL Database",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Windows Forms",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: employee,
+    source_code_link: "https://github.com/HaiNguyenDuy123/Employee_Management_System",
+  },
   {
     name: "Login_Register",
     description:
