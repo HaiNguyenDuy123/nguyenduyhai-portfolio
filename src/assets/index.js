@@ -33,6 +33,9 @@ import review_backend from "./review_backend.png";
 import review_frontend from "./review_movie.png";
 import login from "./login_registration.png";
 import todo from "./todo.png";
+import login_asp from "./login.png";
+import employee from "./employee.png";
+import pet_information from "./pet_information.png";
 
 
 export {
@@ -72,4 +75,7 @@ export {
   review_frontend,
   login,
   todo,
+  login_asp,
+  employee,
+  pet_information,
 };

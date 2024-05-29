@@ -31,6 +31,9 @@ import {
   review_frontend,
   login,
   todo,
+  login_asp,
+  employee,
+  pet_information,
 } from "../assets";
 
 export const navLinks = [
@@ -202,9 +205,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Product Catalog (CRUD)",
+    name: "Pet Information",
     description:
-      "Designed and implemented a CRUD application to manage product details, providing interfaces for adding, viewing, updating, and deleting products.",
+      "Developed a comprehensive Pet Information Management System providing full CRUD capabilities for pet data and images, including an efficient search feature.",
     tags: [
       {
         name: "ASP.NET",
@@ -219,7 +222,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: CRUD,
+    image: pet_information,
     source_code_link: "https://github.com/HaiNguyenDuy123/CRUD_Asp.Net",
   },
   {
@@ -240,7 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Login_and_User_Registration,
+    image: login_asp,
     source_code_link: "https://github.com/HaiNguyenDuy123/login_Asp.Net",
   },
   {
