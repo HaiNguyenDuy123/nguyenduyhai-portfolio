@@ -247,7 +247,7 @@ const projects = [
     source_code_link: "https://github.com/HaiNguyenDuy123/login_Asp.Net",
   },
   {
-    name: "Employee_Management_System",
+    name: "Employee Management System",
     description:
       "Develop a comprehensive Employee Management System to streamline employee data management including registration login, profile management, adding employee information.",
     tags: [

@@ -22,7 +22,7 @@ import docker from "./tech/docker.png";
 
 import utehy from "./company/utehy.png";
 import gtc from "./company/upp.png";
-import jits from "./company/jits.jpg";
+import jits from "./company/download.jfif";
 
 import profile from "./nguyenduyhai_profile.png";
 import weather_app from "./Weather_app.png";
