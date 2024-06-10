@@ -160,8 +160,8 @@ const experiences = [
   },
   {
     title: "BackEnd Internship",
-    title_companny: "GLOBAL TECHNOLOGY JSC",
-    company_name: "GLOBAL TECHNOLOGY JSC",
+    title_companny: "UPP GLOBAL TECHNOLOGY JSC",
+    company_name: "UPP GLOBAL TECHNOLOGY JSC",
     icon: gtc,
     iconBg: "#383E56",
     date: "September 2023 - December 2023",

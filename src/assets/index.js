@@ -21,7 +21,7 @@ import git from "./tech/git.png";
 import docker from "./tech/docker.png";
 
 import utehy from "./company/utehy.png";
-import gtc from "./company/gtc.png";
+import gtc from "./company/upp.png";
 import jits from "./company/jits.jpg";
 
 import profile from "./nguyenduyhai_profile.png";
