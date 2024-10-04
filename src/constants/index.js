@@ -223,7 +223,7 @@ const projects = [
       },
     ],
     image: pet_information,
-    source_code_link: "https://github.com/HaiNguyenDuy123/CRUD_Asp.Net",
+    source_code_link: "https://github.com/HaiNguyenDuy123/Pet_Information",
   },
   {
     name: "Login and User Registration",
