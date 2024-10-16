@@ -47,11 +47,9 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]'
         >
-          I'm a web developer with basic knowledge of HTML,CSS,JavaScript,Python,Java and
-          frameworks like React,Three.js I'm a quick learner and closely collaborate
-          with clients to create efficient, scalable,
-          and user-friendly solutions that solve real-world problems.
-          Let's work together to bring your ideas to life!
+          Hi, my name is Hải, and I’m a backend developer specializing in ASP.NET. 
+          I focus on building efficient and scalable web applications, leveraging my expertise in 
+         .NET technologies to deliver reliable backend solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
